@@ -3,7 +3,7 @@
 
 <c:import url="../layout/app.jsp">
 <c:param name="content">
-<h2>メッセージ一覧</h2>
+<h2>タスク一覧</h2>
 <ul>
 <c:forEach var="task" items="${tasks}">
     <li>
@@ -15,7 +15,7 @@
 </c:forEach>
 </ul>
 
-<p><a href="${pageContext.request.contextPath}/new">新規メッセージの投稿</a></p>
+<p><a href="${pageContext.request.contextPath}/new">新規タスクの登録</a></p>
 
 </c:param>
 </c:import>
