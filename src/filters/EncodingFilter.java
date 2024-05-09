@@ -24,7 +24,7 @@ public class EncodingFilter implements Filter {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
 
-        chain.doFilter(request,response);
+        chain.doFilter(request, response);
     }
 
     public void init(FilterConfig fConfig)throws ServletException{
